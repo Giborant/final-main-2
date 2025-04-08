@@ -36,7 +36,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5.5.1
         with:
-          images: giborant/final-main
+          images: giborant/final-main-2
 
       - name: Build and push Docker Image
         uses: docker/build-push-action@v5
